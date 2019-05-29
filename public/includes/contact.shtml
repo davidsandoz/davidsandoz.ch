@@ -1,0 +1,33 @@
+<h2>Contact</h2>
+<div class="contact-item">
+  <object class="contact-icon" type="image/svg+xml" data="/assets/svg/envelope.svg"
+    >Your browser does not support SVGs
+  </object>
+  <div class="contact-data">
+    <a href="mailto:contact@davidsandoz.ch">contact@davidsandoz.ch</a>
+  </div>
+</div>
+<div class="contact-item">
+  <object class="contact-icon" type="image/svg+xml" data="/assets/svg/skype.svg"
+    >Your browser does not support SVGs
+  </object>
+  <div class="contact-data">
+    <a href="skype:davidsandoz" title="Skype">davidsandoz</a>
+  </div>
+</div>
+<div class="contact-item">
+  <object class="contact-icon" type="image/svg+xml" data="/assets/svg/telegram.svg"
+    >Your browser does not support SVGs
+  </object>
+  <div class="contact-data">
+    <a href="https://t.me/sandoz" title="Telegram">@sandoz</a>
+  </div>
+</div>
+<div class="contact-item">
+  <object class="contact-icon" type="image/svg+xml" data="/assets/svg/facebook-messenger.svg"
+    >Your browser does not support SVGs
+  </object>
+  <div class="contact-data">
+    <a href="https://m.me/sandoz" title="Facebook Messenger">sandoz</a>
+  </div>
+</div>

@@ -1,0 +1,25 @@
+/* :host {
+  display: block;
+} */
+
+input {
+  width: 250px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0 0 0 8px;
+}
+
+.ds-c-home__intro-text {
+  text-align: center;
+}
+
+.ds-c-home__social-icons {
+  text-align: center;
+}
+
+.ds-c-home__social-icon {
+  display: inline-block;
+  margin: 0.7em;
+}

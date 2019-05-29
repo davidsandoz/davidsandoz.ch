@@ -1,0 +1,35 @@
+<section class="ds-c-links">
+  <h2>Links</h2>
+  <div class="ds-c-links__label">My love</div>
+  <a href="http://flavors.me/carogonzo" class="ds-c-links__link">Caroline González</a>
+  <div class="ds-c-links__label">My family</div>
+  <a href="http://sinedolo.ch" class="ds-c-links__link">Sine Dolo</a>
+  <div class="ds-c-links__label">My father</div>
+  <a href="http://pascal.sinedolo.ch" class="ds-c-links__link">Pascal Sandoz</a>
+  <div class="ds-c-links__label">My university</div>
+  <a href="https://epfl.ch/" class="ds-c-links__link">École Polytechnique Fédérale de Lausanne</a>
+  <div class="ds-c-links__label">My rocket</div>
+  <a href="https://nothing.ch" class="ds-c-links__link">Nothing</a>
+  <div class="ds-c-links__label">My federation</div>
+  <a href="https://tchoukball.ch/" class="ds-c-links__link">Swiss Tchoukball</a>
+  <div class="ds-c-links__label">My club</div>
+  <a href="http://ltbc.ch" class="ds-c-links__link">Lausanne Tchoukball Club</a>
+  <div class="ds-c-links__label">My previous clubs</div>
+  <a href="http://tbcc.ch" class="ds-c-links__link">Tchoukball Club La Chaux-de-Fonds</a>
+  <div class="ds-c-links__label"></div>
+  <a href="http://ntbc.ch" class="ds-c-links__link">Nyon Tchoukball Club</a>
+  <div class="ds-c-links__label"></div>
+  <a href="http://tcbern.ch" class="ds-c-links__link">Tchoukball Club Bern</a>
+  <div class="ds-c-links__label">My friends</div>
+  <a href="http://frelechoux.ch" class="ds-c-links__link">Lorain Freléchoux</a>
+  <div class="ds-c-links__label"></div>
+  <a href="http://nathanael.khodl.ch/" class="ds-c-links__link">Nathanaël Khodl</a>
+  <div class="ds-c-links__label"></div>
+  <a href="http://quentin.ms/" class="ds-c-links__link">Quentin Mazars-Simon</a>
+  <div class="ds-c-links__label"></div>
+  <a href="http://cholleton.ch" class="ds-c-links__link">Aubry Cholleton</a>
+  <div class="ds-c-links__label"></div>
+  <a href="http://solenebuet.com" class="ds-c-links__link">Solène Buet</a>
+  <div class="ds-c-links__label"></div>
+  <a href="http://empreintesphotographie.ch" class="ds-c-links__link">Empreintes photographie</a>
+</section>

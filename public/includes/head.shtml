@@ -1,0 +1,35 @@
+<head>
+  <base href="/" />
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>David Sandoz</title>
+  <meta name="keywords" content="David Sandoz, David, Sandoz, Sandoz David, Tchoukball" />
+  <meta name="description" content="Site personnel de David Sandoz" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png?v=5" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png?v=5" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png?v=5" />
+  <link rel="manifest" href="/assets/favicon/manifest.json?v=5" />
+  <link rel="mask-icon" href="/assets/favicon/safari-pinned-tab.svg?v=5" color="#ff9900" />
+  <link rel="shortcut icon" href="/assets/favicon/favicon.ico?v=5" />
+  <meta name="msapplication-config" content="/assets/favicon/browserconfig.xml?v=5" />
+  <meta name="theme-color" content="#ffffff" />
+
+  <link rel="stylesheet" href="styles/master.min.css" />
+
+  <!-- Facebook metatags -->
+  <meta property="og:title" content="David Sandoz" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.davidsandoz.ch" />
+  <meta property="og:image" content="https://www.davidsandoz.ch/assets/favicon/facebook-icon.png" />
+  <meta property="og:site_name" content="David Sandoz" />
+  <meta property="fb:admins" content="817753010" />
+  <meta property="og:description" content="Site personnel de David Sandoz" />
+
+  <!-- Pinterest verification -->
+  <meta name="p:domain_verify" content="799fc2ad5a88bff8c7cb898ffbc5d06f" />
+
+  <!-- external font -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400&amp;subset=latin-ext" rel="stylesheet" />
+</head>

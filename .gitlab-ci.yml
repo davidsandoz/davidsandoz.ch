@@ -1,0 +1,15 @@
+stages:
+  - build
+  - deploy
+
+build:
+  stage: build
+  script: npm run build:css
+# deploy_production:
+#   stage: deploy
+#   script:
+#   environment:
+#     name: production
+#     url: https://davidsandoz.ch
+#   only:
+#   - master

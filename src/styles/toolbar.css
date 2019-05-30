@@ -2,7 +2,7 @@
   background-color: black;
   color: var(--orange);
   display: block;
-  height: 300px;
+  height: calc(100vw / 4);
   text-align: center;
 }
 

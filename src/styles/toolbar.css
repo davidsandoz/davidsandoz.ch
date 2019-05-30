@@ -95,8 +95,6 @@ h1 {
 }
 
 @media (max-width: 1200px) {
-  :host,
-  img,
   .ds-name-cover,
   .ds-cover-image {
     height: calc(100vw / 4);

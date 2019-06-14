@@ -1,6 +1,9 @@
 :root {
+  /* Colors */
   --orange: rgb(255, 153, 0);
   --dark-orange: rgb(255, 102, 0);
+  --stiletto: #993333;
+  --buccaneer: #663333;
   --transparent-orange: rgba(255, 153, 0, 0.1);
 }
 
@@ -62,37 +65,13 @@ li {
   margin-top: 4px;
 }
 
-input {
-  border: 1px solid #106cc8;
-  font-size: 1.4rem;
-  height: 40px;
-  outline: none;
-  padding: 8px;
-}
-
-button {
-  background-color: #106cc8;
-  border-style: none;
-  color: rgba(255, 255, 255, 0.87);
-  cursor: pointer;
-  display: inline-block;
-  font-size: 1.4rem;
-  height: 40px;
-  padding: 8px 18px;
-  text-decoration: none;
-}
-
-button:hover {
-  background-color: #28739e;
-}
-
 a {
-  color: var(--orange);
+  color: var(--stiletto);
   text-decoration: none;
 }
 
 a:hover {
-  color: var(--dark-orange);
+  color: var(--buccaneer);
 }
 
 .icon {

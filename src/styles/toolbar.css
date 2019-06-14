@@ -3,6 +3,7 @@
   color: var(--orange);
   display: block;
   height: calc(100vw / 4);
+  max-height: 300px;
   text-align: center;
 }
 

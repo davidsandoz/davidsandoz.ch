@@ -20,7 +20,7 @@
     >Your browser does not support SVGs
   </object>
   <div class="contact-data">
-    <a href="https://t.me/sandoz" title="Telegram">@sandoz</a>
+    <a href="https://t.me/sandoz" target="_blank" rel="noopener" title="Telegram">@sandoz</a>
   </div>
 </div>
 <div class="contact-item">
@@ -28,6 +28,6 @@
     >Your browser does not support SVGs
   </object>
   <div class="contact-data">
-    <a href="https://m.me/sandoz" title="Facebook Messenger">sandoz</a>
+    <a href="https://m.me/sandoz" target="_blank" rel="noopener" title="Facebook Messenger">sandoz</a>
   </div>
 </div>

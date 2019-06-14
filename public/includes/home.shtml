@@ -1,8 +1,8 @@
 <section class="ds-c-home__intro-text">
   <p i18n="@@home-intro">
-    Software Engineer at <a href="https://nothing.ch" target="_blank">Nothing</a><br />
-    <a href="https://tchoukball.ch" target="_blank">Swiss Tchoukball</a> executive<br />
-    <a href="https://epfl.ch" target="_blank">EPFL</a> Alumnus (IN '16)<br />
+    Software Engineer at <a href="https://nothing.ch" target="_blank" rel="noopener">Nothing</a><br />
+    <a href="https://tchoukball.ch" target="_blank" rel="noopener">Swiss Tchoukball</a> executive<br />
+    <a href="https://epfl.ch" target="_blank" rel="noopener">EPFL</a> Alumnus (IN '16)<br />
     Amateur photographer
   </p>
 </section>

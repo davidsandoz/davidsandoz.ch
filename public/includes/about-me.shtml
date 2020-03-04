@@ -2,7 +2,7 @@
   <h2>About me</h2>
   <p><a href="/about-me#bio-fr">French below</a></p>
   <p>
-    I was born on December 26, 1989 in
+    I was born in 1989 in
     <a href="http://wikipedia.org/wiki/Neuch%C3%A2tel" target="_blank" rel="noopener">Neuchâtel</a>,
     <a href="https://en.wikipedia.org/wiki/Switzerland" target="_blank" rel="noopener">Switzerland</a>. I did my whole
     schooling in
@@ -14,11 +14,13 @@
     (EPFL), where I accomplished a Master degree in
     <a href="http://ic.epfl.ch/computer-science" target="_blank" rel="noopener">Computer Science</a>. Currently, I am a
     <strong>Software Engineer</strong> at <a href="https://nothing.ch" target="_blank" rel="noopener">Nothing</a> in
-    <a href="https://en.wikipedia.org/wiki/Wabern_bei_Bern" target="_blank" rel="noopener">Wabern</a>.
+    <a href="https://en.wikipedia.org/wiki/Wabern_bei_Bern" target="_blank" rel="noopener">Wabern</a>. We are notably
+    developing a web app, <a href="https://peerdom.org" target="_blank" rel="noopener">Peerdom</a>, that helps you
+    visualise and interact with your organisation.
   </p>
 
   <p>
-    Since July 19, 2008, my heart beats for
+    Since 2008, my heart beats for
     <strong><a href="http://twitter.com/carogonzo" target="_blank" rel="noopener">Caroline González</a></strong> with
     whom I live a fabulous story!
   </p>
@@ -49,7 +51,7 @@
     myself to share only photographs taken with my iPhone.
   </p>
 
-  <p><em>Last update August 25, 2018</em></p>
+  <p><em>Last update: March 2020</em></p>
 </section>
 
 <div class="cv">
@@ -59,7 +61,7 @@
 <section id="bio-fr" class="ds-c-about__bio">
   <h2>À propos de moi</h2>
   <p>
-    Je suis à né le 26 décembre 1989 à
+    Je suis à né en 1989 à
     <a href="http://fr.wikipedia.org/wiki/Neuch%C3%A2tel" target="_blank" rel="noopener">Neuchâtel</a>, en
     <a href="https://fr.wikipedia.org/wiki/Suisse" target="_blank" rel="noopener">Suisse</a>. J'ai fait toute ma
     scolarité à
@@ -72,11 +74,13 @@
     (EPFL) où j'ai réalisé un Master en
     <a href="http://ic.epfl.ch/informatique" target="_blank" rel="noopener">Informatique</a>. Actuellement, je suis
     <strong>ingénieur software</strong> à <a href="https://nothing.ch" target="_blank" rel="noopener">Nothing</a> à
-    <a href="https://en.wikipedia.org/wiki/Wabern_bei_Bern" target="_blank" rel="noopener">Wabern</a>.
+    <a href="https://en.wikipedia.org/wiki/Wabern_bei_Bern" target="_blank" rel="noopener">Wabern</a>. Nous développons
+    notamment une web app, <a href="https://peerdom.org" target="_blank" rel="noopener">Peerdom</a>, qui permet de
+    visualiser et intéragir avec son organisation.
   </p>
 
   <p>
-    Depuis le 19 juillet 2008, mon c&#156;ur bat pour
+    Depuis 2008, mon c&#156;ur bat pour
     <strong><a href="http://twitter.com/carogonzo" target="_blank" rel="noopener">Caroline González</a></strong> avec
     qui je vis une histoire fabuleuse !
   </p>
@@ -107,7 +111,7 @@
     de partager des photos prises uniquement avec mon iPhone.
   </p>
 
-  <p><em>Dernière mise à jour le 25 août 2018</em></p>
+  <p><em>Dernière mise à jour : mars 2020</em></p>
 </section>
 
 <div class="cv">

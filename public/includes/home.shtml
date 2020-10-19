@@ -65,3 +65,7 @@
     />
   </a>
 </section>
+
+<section class="ds-c-home__contact">
+  <a href="mailto:contact@davidsandoz.ch">Get in touch</a>
+</section>

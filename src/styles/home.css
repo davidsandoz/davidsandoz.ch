@@ -19,3 +19,8 @@ ul {
   display: inline-block;
   margin: 0.7em;
 }
+
+.ds-c-home__contact {
+  text-align: center;
+  /* TODO: Make it appear like a button */
+}

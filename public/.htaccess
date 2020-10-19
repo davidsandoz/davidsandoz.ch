@@ -5,9 +5,33 @@ Options Indexes FollowSymLinks Includes
 
 DirectoryIndex home.html
 
+Redirect 301 /tchoukball /en/tchoukball
+Redirect 301 /photography /en/photography
+Redirect 301 /en/photographie /en/photography
+Redirect 301 /photographie /fr/photographie
+Redirect 301 /fr/photography /fr/photographie
+Redirect 301 /technology /en/technology
+Redirect 301 /en/technologie /en/technology
+Redirect 301 /technologie /fr/technologie
+Redirect 301 /fr/technology /fr/technologie
+Redirect 301 /resume /en/resume
+Redirect 301 /en/cv /en/resume
+Redirect 301 /cv /fr/cv
+Redirect 301 /fr/resume /fr/cv
+
 RewriteEngine on
 
 RewriteRule ^home/?$  /home.html [L]
+
+RewriteRule ^en/tchoukball/?$  /en/tchoukball.html [L]
+RewriteRule ^fr/tchoukball/?$  /fr/tchoukball.html [L]
+RewriteRule ^en/photography/?$  /en/photography.html [L]
+RewriteRule ^fr/photographie/?$  /fr/photographie.html [L]
+RewriteRule ^en/technology/?$  /en/technology.html [L]
+RewriteRule ^fr/technologie/?$  /fr/technologie.html [L]
+RewriteRule ^en/resume/?$  /en/resume.html [L]
+RewriteRule ^fr/cv/?$  /fr/cv.html [L]
+
 RewriteRule ^about-me/?$  /about-me.html [L]
 RewriteRule ^links/?$  /links.html [L]
 RewriteRule ^contact/?$  /contact.html [L]

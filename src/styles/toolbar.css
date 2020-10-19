@@ -7,19 +7,10 @@
   text-align: center;
 }
 
-h1 {
-  /* Visually hide the title */
-  position: absolute;
-  left: -10000px;
-  top: auto;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-}
-
 .ds-cover-image,
 .ds-name-cover,
 .ds-side-gradient-cover {
+  display: block;
   position: absolute;
   top: 0;
   left: 0;

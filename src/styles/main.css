@@ -106,3 +106,19 @@ a:hover {
     width: 100%;
   }
 }
+
+.ds-l-visually-hidden {
+  display: block;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(1px);
+  white-space: nowrap;
+  position: absolute;
+}
+
+.ds-language-switcher {
+  float: right;
+}

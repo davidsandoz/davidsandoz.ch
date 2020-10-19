@@ -11,7 +11,7 @@ nav {
   margin: auto;
 }
 
-nav a {
+.ds-nav__item {
   height: 30px;
   color: black;
   background-color: transparent;
@@ -24,8 +24,7 @@ nav a {
   transition: color 0.25s, background-color 0.25s;
 }
 
-nav a.router-link-active,
-nav a:hover {
+ds-nav__item:hover {
   color: white;
   background-color: black;
 }

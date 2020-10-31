@@ -26,12 +26,10 @@
 
 .ds-nav__item:nth-child(2) {
   align-self: flex-start;
-  padding-left: 10px;
 }
 
 .ds-nav__item:last-child {
   align-self: flex-end;
-  padding-right: 10px;
 }
 
 .ds-nav__item:hover {

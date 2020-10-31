@@ -1,8 +1,5 @@
 <!--#include virtual="head.shtml"  -->
 <body>
-    <div class="ds-toolbar">
-        <div class="ds-cover-image"></div>
-        <!--#include virtual="toolbar.shtml"  -->
-    </div>
+    <!--#include virtual="toolbar.shtml"  -->
     <!--#include virtual="nav-fr.shtml"  -->
     <main class="ds-l-main">

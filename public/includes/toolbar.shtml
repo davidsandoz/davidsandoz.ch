@@ -1,3 +1,5 @@
-<h1>David Sandoz</h1>
-<div class="ds-side-gradient-cover"></div>
-<div class="ds-name-cover"></div>
+<h1 class="ds-l-visually-hidden">David Sandoz</h1>
+<div class="ds-name-header">
+  <object class="ds-name-header__image" type="image/svg+xml" title="David Sandoz" data="/assets/images/name-header.svg"></object>
+</div>
+<a href="/" class="ds-home-link" title="Go to homepage"></a>

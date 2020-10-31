@@ -1,37 +1,86 @@
 .ds-nav {
-  background-color: var(--orange);
-  display: block;
-  padding: 0;
-}
-
-nav {
   display: flex;
-  max-width: 800px;
-  width: 90vw;
-  margin: auto;
+  margin: min(15vw, 90px) 10vw 0 10vw;
+  z-index: 2;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
-nav a {
-  height: 30px;
-  color: black;
-  background-color: transparent;
-  font-size: 1.6rem;
+.ds-nav__item {
   line-height: 30px;
-  padding: 0 14px;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: var(--color-nav-item-foreground);
+  background-color: var(--color-nav-item-background);
+  min-width: 50vw;
+  margin: 2px;
+  padding: 0px 5px;
+  border: 1px solid transparent;
+  border-radius: 0 16px 0 16px;
   text-decoration: none;
-  vertical-align: middle;
   cursor: pointer;
-  transition: color 0.25s, background-color 0.25s;
+  transition: color 0.25s, background-color 0.25s, border-color 0.25s;
 }
 
-nav a.router-link-active,
-nav a:hover {
-  color: white;
-  background-color: black;
+.ds-nav__item:nth-child(2) {
+  align-self: flex-start;
 }
 
-@media (max-width: 700px) {
-  nav {
-    width: 100%;
+.ds-nav__item:last-child {
+  align-self: flex-end;
+}
+
+.ds-nav__item:hover {
+  color: var(--color-nav-item-foreground-hover);
+  background-color: transparent;
+  border-color: var(--orange);
+}
+
+@media (min-width: 400px) {
+  .ds-nav {
+    flex-direction: row;
+    justify-content: flex-start;
+    width: calc(100% - env(safe-area-inset-left) - min(50px, 10vw));
+    margin-left: calc(env(safe-area-inset-left) + min(50px, 10vw));
+
+    /* In case one increase the font-size in the browser */
+    flex-wrap: wrap;
+  }
+  .ds-nav__item {
+    min-width: auto;
+    border-radius: 0;
+  }
+
+  .ds-nav__item:nth-child(2) {
+    border-bottom-left-radius: 16px;
+  }
+
+  .ds-nav__item:last-child {
+    border-top-right-radius: 16px;
+  }
+}
+
+@media (min-width: 600px) {
+  .ds-nav {
+    width: calc(100% - env(safe-area-inset-left) - 100px);
+    margin-left: calc(env(safe-area-inset-left) + 100px);
+    margin-top: 130px;
+  }
+
+  .ds-nav__item {
+    font-size: 1rem;
+    padding: 5px 15px;
+  }
+
+  .ds-nav__item:nth-child(2) {
+    border-bottom-left-radius: 21px;
+    padding-left: 20px;
+  }
+
+  .ds-nav__item:last-child {
+    border-top-right-radius: 21px;
+    padding-right: 20px;
   }
 }

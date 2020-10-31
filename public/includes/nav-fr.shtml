@@ -1,0 +1,6 @@
+<nav class="ds-nav">
+  <a href="/" class="ds-l-visually-hidden">Home</a>
+  <a href="/fr/tchoukball" class="ds-nav__item">Tchoukball</a>
+  <a href="/fr/photographie" class="ds-nav__item">Photographie</a>
+  <a href="/fr/technology" class="ds-nav__item">Technologie</a>
+</nav>

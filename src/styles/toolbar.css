@@ -27,6 +27,13 @@
   .ds-name-header__image {
     height: 100%;
     width: auto;
+    transform: translateX(-70px) translateY(-50px);
+    transform: translateX(calc(env(safe-area-inset-left) - 70px)) translateY(-50px);
+  }
+}
+
+@media (min-width: 600px) and (min-height: 600px) {
+  .ds-name-header__image {
     transform: translateX(-40px) translateY(0px);
     transform: translateX(calc(env(safe-area-inset-left) - 40px)) translateY(0px);
   }

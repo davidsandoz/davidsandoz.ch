@@ -38,12 +38,12 @@
   border-color: var(--orange);
 }
 
-@media (min-width: 400px) {
+@media (min-width: 440px) {
   .ds-nav {
     flex-direction: row;
-    justify-content: flex-start;
-    width: calc(100% - env(safe-area-inset-left) - min(50px, 10vw));
+    justify-content: flex-end;
     margin-left: calc(env(safe-area-inset-left) + min(50px, 10vw));
+    margin-right: max(env(safe-area-inset-right), 5vw);
 
     /* In case one increase the font-size in the browser */
     flex-wrap: wrap;
@@ -81,8 +81,13 @@
 
 @media (min-width: 600px) and (min-height: 600px) {
   .ds-nav {
-    width: calc(100% - env(safe-area-inset-left) - 100px);
     margin-left: calc(env(safe-area-inset-left) + 100px);
     margin-top: 130px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .ds-nav {
+    justify-content: center;
   }
 }

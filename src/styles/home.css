@@ -11,6 +11,7 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .ds-c-home__avatar {
@@ -20,9 +21,13 @@ ul {
   flex-shrink: 0;
 }
 
+.ds-c-home__avatar-full {
+  display: none;
+}
+
 p.ds-c-home__intro-text {
-  text-align: left;
-  margin-left: 50px;
+  text-align: center;
+  margin-left: 5vw;
   margin-right: 0;
 }
 
@@ -60,5 +65,17 @@ p.ds-c-home__intro-text {
   p.ds-c-home__intro-text {
     text-align: center;
     margin-left: 0;
+  }
+}
+
+@media (min-height: 1200px) and (min-width: 1200px) {
+  .ds-c-home__avatar {
+    display: none;
+  }
+
+  .ds-c-home__avatar-full {
+    display: block;
+    width: 100%;
+    border-radius: 0 min(5vw, 30px) 0 min(5vw, 30px);
   }
 }

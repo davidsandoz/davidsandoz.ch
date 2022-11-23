@@ -1,20 +1,33 @@
 <div class="ds-c-footer">
   <div class="ds-l-social-icons">
-    <a href="http://linkedin.com/in/Davidsandoz" class="ds-l-social-icon" title="David's LinkedIn account">
-      <img src="/assets/icons/linkedin.png" alt="logo of linkedin" srcset="/assets/icons/linkedin@2x.png 2x" />
+    <a href="https://linkedin.com/in/Davidsandoz" class="ds-l-social-icon" title="David's LinkedIn account">
+      <img src="/assets/icons/linkedin.png" alt="Logo of LinkedIn" srcset="/assets/icons/linkedin@2x.png 2x" />
     </a>
-    <a href="http://github.com/DavidSandoz" class="ds-l-social-icon" title="David's GitHub account">
-      <img src="/assets/icons/github.png" alt="logo of github" srcset="/assets/icons/github@2x.png 2x" class="ds-l-light-only" />
-      <img src="/assets/icons/github-light.png" alt="logo of github" srcset="/assets/icons/github-light@2x.png 2x" class="ds-l-dark-only" />
+    <a href="https://github.com/DavidSandoz" class="ds-l-social-icon" title="David's GitHub account">
+      <img
+        src="/assets/icons/github.png"
+        alt="Logo of Github"
+        srcset="/assets/icons/github@2x.png 2x"
+        class="ds-l-light-only"
+      />
+      <img
+        src="/assets/icons/github-light.png"
+        alt="Logo of Github"
+        srcset="/assets/icons/github-light@2x.png 2x"
+        class="ds-l-dark-only"
+      />
     </a>
-    <a href="http://twitter.com/DavidSandoz" class="ds-l-social-icon" title="David's Twitter account">
-      <img src="/assets/icons/twitter.png" alt="logo of twitter" srcset="/assets/icons/twitter@2x.png 2x" />
+    <a href="https://twitter.com/DavidSandoz" class="ds-l-social-icon" title="David's Twitter account">
+      <img src="/assets/icons/twitter.png" alt="Logo of Twitter" srcset="/assets/icons/twitter@2x.png 2x" />
     </a>
-    <a href="http://instagram.com/davidsandoz" class="ds-l-social-icon" title="David's Instagram account">
-      <img src="/assets/icons/instagram.png" alt="logo of instagram" srcset="/assets/icons/instagram@2x.png 2x" />
+    <a rel="me" href="https://tooting.ch/@sandoz" class="ds-l-social-icon" title="David's Mastodon account">
+      <img src="/assets/icons/mastodon.png" alt="Logo of Mastodon" srcset="/assets/icons/mastodon@2x.png 2x" />
     </a>
-    <a href="http://facebook.com/Sandoz" class="ds-l-social-icon" title="David's Facebook account">
-      <img src="/assets/icons/facebook.png" alt="logo of facebook" srcset="/assets/icons/facebook@2x.png 2x" />
+    <a href="https://instagram.com/davidsandoz" class="ds-l-social-icon" title="David's Instagram account">
+      <img src="/assets/icons/instagram.png" alt="Logo of Instagram" srcset="/assets/icons/instagram@2x.png 2x" />
+    </a>
+    <a href="https://facebook.com/Sandoz" class="ds-l-social-icon" title="David's Facebook account">
+      <img src="/assets/icons/facebook.png" alt="Logo of Facebook" srcset="/assets/icons/facebook@2x.png 2x" />
     </a>
   </div>
   <div class="ds-c-footer__copyright">&copy; David Sandoz</div>

@@ -31,4 +31,4 @@ deploy_production:
     name: production
     url: https://davidsandoz.ch
   only:
-    - master
+    - main

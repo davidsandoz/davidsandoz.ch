@@ -1,0 +1,1 @@
+Je suis très impliqué dans le [tchoukball](https://fr.wikipedia.org/wiki/Tchoukball) suisse. Je joue actuellement au [Lausanne Tchoukball Club](http://ltbc.ch), que j'ai rejoint en 2018. Je suis également bénévole à [Swiss Tchoukball](http://tchoukball.ch) depuis 2008 en tant que membre du Comité exécutif.

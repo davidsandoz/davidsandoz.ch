@@ -1,0 +1,27 @@
+{
+  "goHome": "Aller à l'accueil",
+  "head": {
+    "keywords": "David Sandoz, David, Sandoz, Sandoz David, Tchoukball",
+    "description": "Site personnel de David Sandoz"
+  },
+  "navigation": {
+    "home": "Accueil",
+    "tchoukball": "Tchoukball",
+    "photography": "Photographie",
+    "technology": "Technologie"
+  },
+  "home": {
+    "avatarAlt": "Photo portrait de David avec des lunettes de soleil, en montagne",
+    "intro": {
+      "softwareEngineer": "Ingénieur software",
+      "tchoukball": "Joueur et bénévole de tchoukball",
+      "photography": "Photographe amateur"
+    },
+    "getInTouch": "Prendre contact"
+  },
+  "linkIcon": {
+    "logoOf": "Logo de {name}",
+    "davidAccountOf": "Compte {name} de David",
+    "websiteOf": "Site web de {name}"
+  }
+}

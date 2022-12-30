@@ -1,0 +1,1 @@
+I'm very much involved in [tchoukball](https://en.wikipedia.org/wiki/Tchoukball) in Switzerland. I'm currently playing in the [Lausanne Tchoukball Club](http://ltbc.ch), that I joined in 2018. I am also volunteering for [Swiss Tchoukball](http://www.tchoukball.ch) since 2008, as a member of the executive committee.

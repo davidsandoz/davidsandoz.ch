@@ -1,5 +1,17 @@
+# OS files
 .DS_Store
+
+# Project generated files
 node_modules
+*.log*
+.nuxt
+.nitro
+.cache
+.output
+.env
+dist
+
+# To delete
 public/styles/*
 
 # VS Code

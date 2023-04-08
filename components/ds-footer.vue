@@ -23,12 +23,6 @@ const linkIcons = ref<LinkIcon[]>([
     hasColourSchemeAltIcon: true,
   },
   {
-    targetName: "Twitter",
-    targetType: "platform",
-    slug: "twitter",
-    href: "https://twitter.com/DavidSandoz",
-  },
-  {
     targetName: "Mastodon",
     targetType: "platform",
     slug: "mastodon",
@@ -39,12 +33,6 @@ const linkIcons = ref<LinkIcon[]>([
     targetType: "platform",
     slug: "instagram",
     href: "https://instagram.com/davidsandoz",
-  },
-  {
-    targetName: "Facebook",
-    targetType: "platform",
-    slug: "facebook",
-    href: "https://facebook.com/Sandoz",
   },
 ]);
 </script>

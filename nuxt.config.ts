@@ -25,10 +25,7 @@ export default defineNuxtConfig({
     strategy: "prefix_and_default",
     lazy: true,
     langDir: "locales",
-    vueI18n: {
-      legacy: false,
-      locale: "en",
-    },
+    vueI18n: "./i18n.config.ts",
   },
   content: {
     markdown: {

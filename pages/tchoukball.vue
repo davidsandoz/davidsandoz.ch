@@ -22,7 +22,7 @@
 </template>
 
 <script lang="ts" setup>
-import { LinkIcon } from "~/components/ds-link-icon.vue";
+import type { LinkIcon } from "~/components/ds-link-icon.vue";
 
 const { t } = useI18n({ useScope: "local" });
 const linkIcons = ref<LinkIcon[]>([

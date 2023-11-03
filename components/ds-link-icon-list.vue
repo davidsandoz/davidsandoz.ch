@@ -10,8 +10,7 @@
 </template>
 
 <script lang="ts" setup>
-import { PropType } from "vue";
-import { LinkIcon } from "~/components/ds-link-icon.vue";
+import type { LinkIcon } from "~/components/ds-link-icon.vue";
 
 const props = defineProps({
   linkIcons: {

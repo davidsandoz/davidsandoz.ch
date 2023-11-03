@@ -17,8 +17,6 @@
 </template>
 
 <script lang="ts" setup>
-import { PropType } from "vue";
-
 export interface LinkIcon {
   targetName: string;
   targetType: "platform" | "website";

@@ -54,11 +54,13 @@ const linkIcons = ref<LinkIcon[]>([
 ]);
 
 const figures = ref([
+  { slug: "sunset_keywest", photographer: "David Sandoz" },
   { slug: "gecko_maranjab", photographer: "David Sandoz" },
   { slug: "londoneye", photographer: "David Sandoz" },
   { slug: "socquette", photographer: "David Sandoz" },
   { slug: "lamppost_prague", photographer: "David Sandoz" },
   { slug: "david_maranjab", photographer: "Pascal Sandoz" },
+  { slug: "tchoukball_wtc2023", photographer: "David Sandoz" },
   { slug: "tchoukball_wtc2019", photographer: "David Sandoz" },
   { slug: "tchoukball_etc2018", photographer: "David Sandoz" },
   { slug: "tchoukball_wtc2011", photographer: "David Sandoz" },
@@ -70,6 +72,9 @@ const figures = ref([
   "en": {
     "title": "Photography",
     "figures": {
+      "sunset_keywest": {
+        "caption": "The sunset from Key West, Florida, USA"
+      },
       "gecko_maranjab": {
         "caption": "A small lizard of the Maranjab desert in Iran"
       },
@@ -85,6 +90,9 @@ const figures = ref([
       "david_maranjab": {
         "caption": "Me taking a photograph in the Maranjab desert in Iran"
       },
+      "tchoukball_wtc2023": {
+        "caption": "2023, Switzerland becomes world tchoukball champion in Prague, Czech Republic"
+      },
       "tchoukball_wtc2019": {
         "caption": "Semi-final for the fifth place of the 2019 world tchoukball championships in Nilai, Malaysia"
       },
@@ -99,6 +107,9 @@ const figures = ref([
   "fr": {
     "title": "Photographie",
     "figures": {
+      "sunset_keywest": {
+        "caption": "Coucher du soleil à Key West en Floride aux États-Unis"
+      },
       "gecko_maranjab": {
         "caption": "Un petit lézard du désert de Maranjab en Iran"
       },
@@ -109,10 +120,13 @@ const figures = ref([
         "caption": "La gueule de Socquette"
       },
       "lamppost_prague": {
-        "caption": "Un lampadaire à Prague au coucher du soleil"
+        "caption": "Un lampadaire à Prague au coucher du soleil"
       },
       "david_maranjab": {
         "caption": "Moi prenant une photo dans le desert de Maranjab en Iran"
+      },
+      "tchoukball_wtc2023": {
+        "caption": "2023, la Suisse devient championne du monde de tchoukball, à Prague en République tchèque"
       },
       "tchoukball_wtc2019": {
         "caption": "Demi-finale pour la cinquième place des championnats du monde de tchoukball 2019 à Nilai, Malaisie"

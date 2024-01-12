@@ -87,14 +87,15 @@ p.c-home__intro-text {
   }
 }
 
-@media (min-height: 1200px) and (min-width: 1200px) {
+@media (min-height: 950px) and (min-width: 750px) {
   .c-home__avatar {
     display: none;
   }
 
   .c-home__avatar-full {
     display: block;
-    width: 100%;
+    max-width: 100%;
+    max-height: calc(100vh - 700px);
     border-radius: 0 min(5vw, 30px) 0 min(5vw, 30px);
   }
 }

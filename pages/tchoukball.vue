@@ -37,6 +37,7 @@ const linkIcons = ref<LinkIcon[]>([
     targetType: "website",
     slug: "ltbc",
     href: "https://ltbc.ch",
+    hasColourSchemeAltIcon: true,
   },
 ]);
 

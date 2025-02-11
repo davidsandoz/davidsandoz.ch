@@ -8,7 +8,7 @@
     :photographer="figures[0].photographer"
   />
 
-  <ContentDoc :path="`${$i18n.locale}/tchoukball`" />
+  <ContentRenderer v-if="data" :value="data" tag="section" />
 
   <DsLinkIconList :linkIcons="linkIcons" />
 
@@ -24,7 +24,10 @@
 <script lang="ts" setup>
 import type { LinkIcon } from "~/components/ds-link-icon.vue";
 
-const { t } = useI18n({ useScope: "local" });
+const { t, locale } = useI18n({ useScope: "local" });
+
+const { data } = await useAsyncData(() => queryCollection("content").path(`/${locale.value}/tchoukball`).first());
+
 const linkIcons = ref<LinkIcon[]>([
   {
     targetName: "Swiss Tchoukball",

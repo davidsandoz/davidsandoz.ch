@@ -6,7 +6,7 @@
     :caption="t('figure.caption')"
     photographer="Max Fray"
   />
-  <ContentDoc :path="`${$i18n.locale}/technology`" tag="section" />
+  <ContentRenderer v-if="data" :value="data" tag="section" />
   <DsLinkIconList :linkIcons="linkIcons" />
 </template>
 
@@ -20,7 +20,10 @@ defineI18nRoute({
   },
 });
 
-const { t } = useI18n({ useScope: "local" });
+const { t, locale } = useI18n({ useScope: "local" });
+
+const { data } = await useAsyncData(() => queryCollection("content").path(`/${locale.value}/technology`).first());
+
 const linkIcons = ref<LinkIcon[]>([
   {
     targetName: "GitHub",

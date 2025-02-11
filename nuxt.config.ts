@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: "2024-07-17",
+  compatibilityDate: "2024-02-11",
   css: ["@/assets/css/main.css"],
   modules: ["@nuxtjs/i18n", "@nuxt/content"],
   i18n: {
@@ -29,7 +29,7 @@ export default defineNuxtConfig({
     vueI18n: "./i18n.config.ts",
   },
   content: {
-    markdown: {
+    renderer: {
       anchorLinks: false,
     },
   },

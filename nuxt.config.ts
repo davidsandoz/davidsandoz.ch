@@ -9,13 +9,13 @@ export default defineNuxtConfig({
       {
         name: "English",
         code: "en",
-        iso: "en-CH",
+        language: "en-CH",
         file: "en-CH.json",
       },
       {
         name: "Français",
         code: "fr",
-        iso: "fr-CH",
+        language: "fr-CH",
         file: "fr-CH.json",
       },
     ],
@@ -25,8 +25,6 @@ export default defineNuxtConfig({
     },
     strategy: "prefix_and_default",
     lazy: true,
-    langDir: "locales",
-    vueI18n: "./i18n.config.ts",
   },
   content: {
     renderer: {

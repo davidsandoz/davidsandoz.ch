@@ -97,11 +97,11 @@ const figures = ref([
       },
       "tchoukball_cdf": {
         "altText": "David tirant sur un cadre de tchoukball, jouant avec La Chaux-de-Fonds",
-        "caption": "J'ai commencé à jouer en 2004 à La Chaux-de-Fonds. Ici durant la European Winners' Cup de 2009."
+        "caption": "J'ai commencé à jouer en 2004 à La Chaux-de-Fonds. Ici durant la European Winners' Cup de 2009."
       },
       "tchoukball_swissteam": {
         "altText": "David en train de tirer, jouant sur sable avec l'équipe suisse devant un public nombreux",
-        "caption": "J'ai joué au sein du cadre national de 2007 à 2009. Ici en 2008 durant le tournoi de beach de Rimini."
+        "caption": "J'ai joué au sein du cadre national de 2007 à 2010. Ici en 2008 durant le tournoi de beach de Rimini."
       }
     }
   }

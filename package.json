@@ -20,5 +20,8 @@
     "@nuxt/content": "^3.6.3",
     "@nuxtjs/i18n": "^9.5.6",
     "nuxt": "3.17.7"
+  },
+  "overrides": {
+    "@nuxtjs/mdc": "^0.17.2"
   }
 }

@@ -17,8 +17,8 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@nuxt/content": "^3.6.0",
-    "@nuxtjs/i18n": "^9.5.5",
-    "nuxt": "3.17.5"
+    "@nuxt/content": "^3.6.3",
+    "@nuxtjs/i18n": "^9.5.6",
+    "nuxt": "3.17.7"
   }
 }

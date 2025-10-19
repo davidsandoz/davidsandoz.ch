@@ -28,12 +28,6 @@ const linkIcons = ref<LinkIcon[]>([
     slug: "mastodon",
     href: "https://tooting.ch/@sandoz",
   },
-  {
-    targetName: "Instagram",
-    targetType: "platform",
-    slug: "instagram",
-    href: "https://instagram.com/davidsandoz",
-  },
 ]);
 </script>
 

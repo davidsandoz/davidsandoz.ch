@@ -23,6 +23,7 @@ export interface LinkIcon {
   slug: string;
   href: string;
   hasColourSchemeAltIcon?: boolean;
+  isSvg?: boolean;
 }
 
 const { t } = useI18n();
@@ -35,15 +36,27 @@ const props = defineProps({
 });
 
 const src = computed(() => {
+  if (props.linkIcon.isSvg) {
+    return `/icons/${props.linkIcon.slug}.svg`;
+  }
   return `/icons/${props.linkIcon.slug}.png`;
 });
 const srcLight = computed(() => {
+  if (props.linkIcon.isSvg) {
+    return `/icons/${props.linkIcon.slug}-light.svg`;
+  }
   return `/icons/${props.linkIcon.slug}-light.png`;
 });
 const srcSet = computed(() => {
+  if (props.linkIcon.isSvg) {
+    return undefined;
+  }
   return `/icons/${props.linkIcon.slug}@2x.png 2x`;
 });
 const srcSetLight = computed(() => {
+  if (props.linkIcon.isSvg) {
+    return undefined;
+  }
   return `/icons/${props.linkIcon.slug}-light@2x.png 2x`;
 });
 const title = computed(() => {

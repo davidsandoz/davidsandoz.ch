@@ -48,6 +48,14 @@ const linkIcons = ref<LinkIcon[]>([
     hasColourSchemeAltIcon: true,
   },
   {
+    targetName: "Pixelfed",
+    targetType: "platform",
+    slug: "pixelfed",
+    href: "https://pixelfed.ch/sandoz",
+    hasColourSchemeAltIcon: true,
+    isSvg: true,
+  },
+  {
     targetName: "Instagram",
     targetType: "platform",
     slug: "instagram",

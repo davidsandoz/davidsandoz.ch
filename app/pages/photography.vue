@@ -2,6 +2,7 @@
   <h2>{{ t("title") }}</h2>
 
   <DsFigure
+    v-if="figures[0]"
     :slug="figures[0].slug"
     :caption="t(`figures.${figures[0].slug}.caption`)"
     :photographer="figures[0].photographer"

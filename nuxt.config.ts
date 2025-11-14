@@ -24,7 +24,6 @@ export default defineNuxtConfig({
       useCookie: true,
     },
     strategy: "prefix_and_default",
-    lazy: true,
   },
   content: {
     renderer: {

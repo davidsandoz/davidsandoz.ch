@@ -19,7 +19,7 @@
   "devDependencies": {
     "@nuxt/content": "^3.8.2",
     "@nuxtjs/i18n": "^10.2.1",
-    "better-sqlite3": "^12.4.1",
+    "better-sqlite3": "^12.5.0",
     "nuxt": "^4.2.1"
   },
   "overrides": {

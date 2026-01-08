@@ -22,7 +22,9 @@ defineI18nRoute({
 
 const { t, locale } = useI18n({ useScope: "local" });
 
-const { data } = await useAsyncData(() => queryCollection("content").path(`/${locale.value}/technology`).first());
+const { data } = useAsyncData(`technology-${locale.value}`, () =>
+  queryCollection("content").path(`/${locale.value}/technology`).first(),
+);
 
 const linkIcons = ref<LinkIcon[]>([
   {

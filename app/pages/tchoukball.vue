@@ -27,7 +27,9 @@ import type { LinkIcon } from "~/components/ds-link-icon.vue";
 
 const { t, locale } = useI18n({ useScope: "local" });
 
-const { data } = await useAsyncData(() => queryCollection("content").path(`/${locale.value}/tchoukball`).first());
+const { data } = useAsyncData(`tchoukball-${locale.value}`, () =>
+  queryCollection("content").path(`/${locale.value}/tchoukball`).first(),
+);
 
 const linkIcons = ref<LinkIcon[]>([
   {

@@ -32,7 +32,9 @@ defineI18nRoute({
   },
 });
 
-const { data } = await useAsyncData(() => queryCollection("content").path(`/${locale.value}/photography`).first());
+const { data } = useAsyncData(`photography-${locale.value}`, () =>
+  queryCollection("content").path(`/${locale.value}/photography`).first(),
+);
 
 const linkIcons = ref<LinkIcon[]>([
   {

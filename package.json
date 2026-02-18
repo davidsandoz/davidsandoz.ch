@@ -17,12 +17,9 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@nuxt/content": "^3.10.0",
-    "@nuxtjs/i18n": "^10.2.1",
-    "better-sqlite3": "^12.5.0",
-    "nuxt": "^4.2.2"
-  },
-  "overrides": {
-    "@nuxtjs/mdc": "^0.17.2"
+    "@nuxt/content": "^3.11.2",
+    "@nuxtjs/i18n": "^10.2.3",
+    "better-sqlite3": "^12.6.2",
+    "nuxt": "^4.3.1"
   }
 }

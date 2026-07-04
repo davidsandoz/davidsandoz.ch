@@ -1,10 +1,10 @@
 <template>
   <h2>{{ t("title") }}</h2>
   <DsFigure
-    slug="nothing_forum_epfl"
+    slug="liipconf_codeinthedark"
     :altText="t('figure.altText')"
     :caption="t('figure.caption')"
-    photographer="Max Fray"
+    photographer="Josef Kruckenberg"
   />
   <ContentRenderer v-if="data" :value="data" tag="section" />
   <DsLinkIconList :linkIcons="linkIcons" />
@@ -73,15 +73,15 @@ const linkIcons = ref<LinkIcon[]>([
   "en": {
     "title": "Technology",
     "figure": {
-      "altText": "David representing Nothing at the Forum EPFL in 2016.",
-      "caption": "Presenting Nothing during the Forum EPFL in 2016."
+      "altText": "David typing on his laptop in a dark environment and with a Liip neon sign in the background.",
+      "caption": "Taking part to the Code in the Dark contest during the LiipConf 2026."
     }
   },
   "fr": {
     "title": "Technologie",
     "figure": {
-      "altText": "David représentant Nothing au Forum EPFL en 2016.",
-      "caption": "En train de présenter Nothing durant le Forum EPFL en 2016."
+      "altText": "David tapant sur son ordinateur portable dans un environnement sombre et avec une enseigne néon Liip en arrière-plan.",
+      "caption": "En train de participer au concours Code in the Dark durant la LiipConf 2026."
     }
   }
 }

@@ -1,4 +1,4 @@
-image: node:latest
+image: node:lts
 
 include:
   # Dependency Scanning customization: https://docs.gitlab.com/ee/user/application_security/dependency_scanning/#customizing-the-dependency-scanning-settings
